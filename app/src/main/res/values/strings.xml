@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">APIGithubChallenge</string>
+    <string name="avatar">Foto do usuário</string>
+    <string name="fetch_list_user_failed">Falha ao recuperar a lista de usuários</string>
+    <string name="fetch_list_repositories_failed">Falha ao recuperar a lista de respositórios</string>
+    <string name="fetch__user_failed">Falha ao recuperar os dados do usuários</string>
+    <string name="try_again">Tentar novamente</string>
+    <string name="repositories">Repositórios do usuário</string>
+    <string name="login">Login</string>
+    <string name="not_know">Desconhecido</string>
+    <string name="user_details">Detalhes do usuário</string>
+</resources>
