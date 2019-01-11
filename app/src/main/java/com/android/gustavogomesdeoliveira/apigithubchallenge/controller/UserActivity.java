@@ -117,7 +117,7 @@ public class UserActivity extends AppCompatActivity {
                 public void onResponse(@NonNull Call<List<Repository>> call, @NonNull Response<List<Repository>> response) {
                     List<Repository> repositories = response.body();
                     progressBar.setVisibility(View.GONE);
-                    recyclerView.setAdapter(new RepositoryAdapter(repositories, getApplicationContext()));
+                    recyclerView.setAdapter(new RepositoryAdapter(repositories));
                     recyclerView.smoothScrollToPosition(0);
                 }
 

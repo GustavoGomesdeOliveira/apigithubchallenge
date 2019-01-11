@@ -17,9 +17,8 @@ public class RepositoryAdapter extends RecyclerView.Adapter<RepositoryAdapter.Vi
 
     private List<Repository> repositoryList;
 
-    public RepositoryAdapter(List<Repository> repositoryList, Context context) {
+    public RepositoryAdapter(List<Repository> repositoryList) {
         this.repositoryList = repositoryList;
-        Context context1 = context;
     }
 
     @NonNull
